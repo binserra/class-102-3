@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100&display=swap");
+
+*{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+nav.menu{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    padding: 8px 10px;
+}
+.link-arrows :hover{
+    color: rgb(255,204,0);
+}
+.link-login:hover{
+    color: rgb(255,204,0);
+}
+body{
+    background-color: black;
+    color: white;
+}
+img{
+    max-width: 100%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+nav a{
+    color: black;
+    padding: 8px 10px;
+}
+.logo-frame{
+    height: 30px;
+}
+
+.logo-full{
+    display: none;
+}
+
+.link-login{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.link-search{
+    display: none;
+}
+
+.link-news{
+    display: none;
+}
+
+.link-subs{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white!important;
+    background-color: black;
+    padding: 10px;
+    background: linear-gradient(to left, black 50%, rgb(255,204,0) 50%) right;
+    background-size: 210%;
+    transition: .2s ease-out;
+    
+}
+
+.link-subs:hover{
+    color: black!important;
+    background-color: rgb(255,204,0);
+    background-position: left;
+}
+
+.link-menu{
+    display: none;
+}
+.link-arrows{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+p{font-size: 30px;
+    text-align: center;
+}
+.sub-p{
+    color: white!important;
+    background-color: rgb(255,204,0);
+    text-align: center;
+    /* text-decoration: underline rgb(241, 211, 41); */
+    border-bottom: 2px rgb(255,204,0);
+    background: linear-gradient(to bottom, black 50%, rgb(255,204,0) 50%) top;
+    background-size: 100% 200%;
+    transition: .2s ease-out;
+    padding: 1px;
+}
+.sub-p:hover{
+    color: black!important;
+    background-color: rgb(255,204,0);
+    background-position: bottom;
+    font-weight: bolder;
+    
+}
+main, header{
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-news{
+    position: relative;
+}
+.main-news-img{
+margin-bottom: -4px;
+
+}
+
+.main-news-text{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    font-size: small;
+}
+.main-news-text p{
+    position: absolute;
+    font-size: x-large;
+}
+.main-news-text p:hover{
+    text-decoration: underline;
+}
+.secondary-news{
+margin: 20px 0;
+}
+
+.secondary-news-text{
+background-color: white;
+color: black;
+padding: 10px;
+}
+.secondary-news-text h2{
+    font-size: 15px;
+    color: grey;
+    text-transform: uppercase;
+    background-color: white;
+    padding: 5px;
+    }
+.secondary-news-text a{
+    background-color: white;
+    color: grey;
+    }
+.secondary-news-text p{
+    font-size:medium;
+    padding: 5px;
+}
+.secondary-news-text p:hover{
+    text-decoration: underline;
+}
+.secondary-news-img{
+margin-bottom: -4px;
+}
+h3{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.todays-pick{
+    display: flex;
+}
+.todays-pick img{
+    width: 100px;
+    height: 100px;
+    margin-right: 30px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.todays-pick-text h2{
+font-size: 12px;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+.todays-pick-text p{
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.todays-pick-text p:hover{
+    text-decoration: underline;
+}
